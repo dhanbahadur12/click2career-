@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  color: #666666;
+}
+
+.main {
+  padding: 120px;
+}
+.main .topcard {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.main .topcard .card {
+  background-color: #FFFFFF;
+  box-shadow: 4px 8px 24px rgba(204, 204, 204, 0.25);
+  width: 100%;
+  height: 171px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main .Ceo {
+  margin-top: 20px;
+  display: flex;
+  gap: 21px;
+  flex: 1 auto 1;
+}
+.main .Ceo-name {
+  color: black;
+}
+.main .Ceo-photo, .main .Ceo-date {
+  background-color: #FFFFFF;
+  border: 1px solid #2159AB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+  gap: 8px;
+}
+.main .Ceo-photo p, .main .Ceo-date p {
+  font-size: 14px;
+}
+.main .Ceo-photo img, .main .Ceo-date img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.main .Ceo-description {
+  border: 1px solid #2159AB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 16px;
+}
+.main .Ceo-description h4 {
+  margin: 0;
+}
+.main .Ceo-description .date {
+  text-align: right;
+}
+.main .Ceo-date {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.main .Ceo-date .date {
+  color: #8F8F8F;
+}
+.main .Ceo-date .time {
+  margin-left: auto;
+}
+.main .Gallery {
+  margin-top: 64px;
+}
+.main .Gallery-heading {
+  display: flex;
+  justify-content: space-between;
+}
+.main .Gallery-heading p {
+  color: #666666;
+}
+.main .Gallery-Photos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  width: 100%;
+}
+.main .Gallery-Photos img {
+  width: 23%;
+}
+.main .paragraphSection {
+  margin-top: 64px;
+}
+.main .paragraphSection .smallParagraph {
+  width: 50%;
+}
+.main .SecondParagarph {
+  display: flex;
+  align-items: center;
+  gap: 110px;
+}
+.main .SecondParagarph img {
+  width: 200%;
+}/*# sourceMappingURL=style.css.map */
